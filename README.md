@@ -10,4 +10,4 @@ The task is to create an application that accepts a City as a parameter. The app
 •	Price
 
 **Instruction:**
-User can type the city name in the input box and the application will return the information required in the prompt.
+User can type the city name in the input box and click the search button, then the application will return the information required in the prompt.
