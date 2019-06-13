@@ -1,33 +1,55 @@
-.App {
-  text-align: center;
+.container {
+    text-align: center;
+    margin-top: 10%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.searchBarContainer{
+    margin: 5% 20%;
+    font-family: $roboto;
+    height: 50px;
   }
-  to {
-    transform: rotate(360deg);
+
+.inputField {
+  width: 60%;
+  height: 50px;
+  font-size: 15px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  float: left;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0 , .1);
+  border: 0;
+  outline: 0;
+}
+
+.searchBtn{
+  font-size: 15px;
+  width: 27%;
+  float: right;
+  height: 50px;
+  padding: 0;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.searchBtn:hover {
+  color:#ffffff;
+  background-color: #282727;
+  cursor: pointer;
+}
+
+.table{
+  margin: auto 20%;
+}
+
+@media (min-width: 1200px){
+  .inputField {
+    width: 80%;
+    font-size: 18px;
+  }
+  .searchBtn{
+    width: 17%;
+    font-size: 18px;
   }
 }
