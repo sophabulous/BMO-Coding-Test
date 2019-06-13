@@ -1,6 +1,8 @@
 # BMO-Coding-Test
 FE Coding Test
 
+![RestoFinder Demo](demo.gif)
+
 **Prompt:**
 
 Open Table has a public API available at https://platform.opentable.com/documentation/#authorization that you can use to get restaurant information, including restaurant details and delivery information. As an example, http://opentable.herokuapp.com/api/restaurants?city=toronto returns a list of restaurants that deliver to Toronto, including some basic restaurant information.
